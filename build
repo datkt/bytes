@@ -1,0 +1,11 @@
+#!/bin/bash
+
+declare libs=(
+  from
+)
+
+for lib in ${libs[@]}; do
+  cmd="konanc $lib.kt $(konanc-config -clr $lib.kc) -p library -o $lib.klib"
+  echo $cmd
+  $cmd
+done

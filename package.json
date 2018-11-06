@@ -1,0 +1,22 @@
+{
+  "name": "@datkt/bytes",
+  "version": "0.0.1",
+  "description": "Various utilitity functions for working with bytes in Kotlin",
+  "main": "index.kt",
+  "scripts": {
+    "postinstall": "./build",
+    "test": "konanc index.kt test.kt $(konanc-config konanc.kc) -p program -o test.kexe && ./test.kexe"
+  },
+  "keywords": [
+    "datkt",
+    "bytes",
+    "util",
+    "kotlin"
+  ],
+  "author": "Joseph Werle <werle@littlstar.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@datkt/bytes-from": "^1.0.1",
+    "@datkt/konanc-config": "^4.2.0"
+  }
+}
