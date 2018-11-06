@@ -1,6 +1,6 @@
 {
   "name": "@datkt/bytes",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Various utilitity functions for working with bytes in Kotlin",
   "main": "index.kt",
   "scripts": {
